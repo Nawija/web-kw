@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #252424;
+  background-color: #1d1b1b;
   font-size: 1.6rem;
   font-family: "Secular One", sans-serif;
   font-family: "Sansita Swashed", cursive;
@@ -633,12 +633,12 @@ footer .bg-picture .picture {
 
 @media (min-width: 1280px) {
   .container {
-    padding-bottom: 10vh;
+    padding-bottom: 18vh;
   }
   .decor-left,
   .decor-left::before,
   .decor-right {
-    height: 30vh;
+    height: 44vh;
   }
   .decor-left::before,
   .decor-right {
@@ -648,7 +648,7 @@ footer .bg-picture .picture {
     padding: 10px;
   }
   nav h5 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   nav .burger {
     display: none;
@@ -662,7 +662,7 @@ footer .bg-picture .picture {
     padding: 5px 25px 5px 0;
     margin-left: 5px;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   nav ul li:first-child {
     list-style: none;
@@ -670,28 +670,32 @@ footer .bg-picture .picture {
   }
   .container p {
     margin-top: 30px;
-    font-size: 5.5rem;
-    line-height: 90%;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    line-height: 100%;
   }
   .container p span {
     font-size: 4rem;
   }
   .hire-me {
-    margin-right: 530px;
+    margin-right: 480px;
     font-size: 3rem;
-    padding: 5px 25px;
+    padding: 10px 35px;
     top: 82%;
   }
   .about-me .about-me-info {
     margin-bottom: 10vh;
   }
   .about-me .about-me-info h2 {
-    margin-top: 70px;
-    font-size: 7rem;
+    margin-top: 80px;
+    font-size: 5rem;
+    letter-spacing: -5px;
     margin-bottom: 40px;
   }
   .about-me .about-me-info p {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
+    width: 80%;
   }
   .about-me .about-me-info p::after {
     content: " ";
