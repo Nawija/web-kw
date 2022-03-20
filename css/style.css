@@ -80,6 +80,7 @@ nav h5 {
   color: transparent;
   background: linear-gradient(21deg, #898faf 9%, #f7f7f7 32%, #7d2faa 54%, #1fd1ce 76%, #1f4bd1 92%);
   background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .container p span {
@@ -153,6 +154,7 @@ nav h5 {
   letter-spacing: -2px;
   background: linear-gradient(21deg, #898faf 9%, #f7f7f7 32%, #7d2faa 54%, #1fd1ce 76%, #1f4bd1 92%);
   background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .about-me p {

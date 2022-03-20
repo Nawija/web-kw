@@ -1,5 +1,5 @@
 @import "./colors";
-@import './size';
+@import "./size";
 
 // --------overall------
 
@@ -64,6 +64,7 @@ nav {
         color: transparent;
         background: $gradient;
         background-clip: text;
+        -webkit-background-clip: text;
         span {
             font-size: 2rem;
             color: whitesmoke;
@@ -128,6 +129,7 @@ nav {
         letter-spacing: -2px;
         background: $gradient;
         background-clip: text;
+        -webkit-background-clip: text;
     }
     p {
         color: whitesmoke;
@@ -184,12 +186,12 @@ nav {
 
     .image {
         margin-top: 70px;
-        .image-up{
+        .image-up {
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        .image-down{
+        .image-down {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -208,11 +210,11 @@ nav {
             height: 200px;
             width: 200px;
         }
-        .img3{
+        .img3 {
             height: 100px;
             width: 150px;
         }
-        .img4{
+        .img4 {
             height: 100px;
             width: 150px;
             background-position: 50% 50%;
@@ -220,34 +222,34 @@ nav {
         }
     }
 }
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: $footer-gradient; 
+    background: $footer-gradient;
     padding: 10px 10px;
     z-index: 0;
     text-align: center;
     white-space: nowrap;
     flex-direction: column;
     padding: 20px;
-    h5{
+    h5 {
         font-size: 2.5rem;
         padding: 5px 10px;
     }
-    .contact{
+    .contact {
         margin-bottom: 20px;
     }
-    .social-media{
+    .social-media {
         margin-bottom: 20px;
-        .icons{
+        .icons {
             font-size: 3rem;
             cursor: pointer;
             border-radius: 50%;
             background: $main-gradient;
         }
     }
-    .bg-picture{
+    .bg-picture {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -256,7 +258,7 @@ footer{
         width: 90px;
         border-radius: 50%;
         background-image: $second-gradient;
-        .picture{
+        .picture {
             position: absolute;
             height: 100px;
             width: 140px;
