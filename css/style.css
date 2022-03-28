@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -66,10 +66,25 @@ body {
   text-align: center;
 }
 
+.main-grid .menu-toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 95%;
+  z-index: 0;
+  background-color: rgba(219, 203, 203, 0.932);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .main-grid .video-bg {
   position: relative;
   height: 90vh;
   width: 100%;
+  z-index: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .main-grid .video-bg .video {
@@ -78,5 +93,21 @@ body {
   width: 95%;
   -o-object-fit: cover;
      object-fit: cover;
+  z-index: -1;
+}
+
+.main-grid .video-bg .burger {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.main-grid .video-bg .burger .burger-icon {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

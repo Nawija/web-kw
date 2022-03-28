@@ -1,4 +1,4 @@
-@import './colors';
+@import "./colors";
 
 *,
 ::before,
@@ -8,15 +8,15 @@
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.6rem;
 }
-.main-grid{
+.main-grid {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: #fff;
-    .btn-side{
+    .btn-side {
         position: relative;
         display: flex;
         align-items: center;
@@ -33,28 +33,53 @@ body{
         height: 90vh;
         width: 30vw;
         text-align: center;
-        .logo{
+        .logo {
             font-size: 2.2rem;
             text-transform: uppercase;
             color: $logo;
         }
-        .copyright-text{
+        .copyright-text {
             font-size: 1.4rem;
             color: $text-shadow;
             text-transform: capitalize;
             text-align: center;
         }
     }
-    .video-bg{
+    .menu-toggle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90vh;
+        width: 95%;
+        z-index: 0;
+        background-color: rgba(219, 203, 203, 0.932);
+        transition: 1s;
+    }
+    .video-bg {
         position: relative;
         height: 90vh;
         width: 100%;
-        .video{
+        z-index: 0;
+        transition: 1s;
+        .video {
             position: absolute;
             height: 100%;
             width: 95%;
             object-fit: cover;
+            z-index: -1;
+        }
+        .burger {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 50px;
+            border: none;
+            outline: none;
+            background: none;
+            .burger-icon {
+                font-size: 3rem;
+                color: #fff;
+                cursor: pointer;
+            }
         }
     }
 }
-

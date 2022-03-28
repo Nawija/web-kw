@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,6 @@
 </head>
 
 <body>
-    <audio id="audio" src="./audio/into-the-night-20928.mp3"></audio>
     <div class="main-grid">
         <div class="btn-side">
             <p class="logo">
@@ -27,10 +26,13 @@
             </div>
         </div>
         <div class="video-bg">
-            <video class="video"src="./video/Ink - 67358.mp4" autoplay muted loop></video>
+            <video class="video" src="./video/Ink - 67358.mp4" autoplay muted loop>
+            </video>
+            <div id="menuToggle" class="toggle">
+            </div>
             <header>
-                <button>
-                    <ion-icon name="menu"></ion-icon>
+                <button id="burger" class="burger">
+                    <ion-icon class="burger-icon" name="menu"></ion-icon>
                 </button>
             </header>
             <main>
